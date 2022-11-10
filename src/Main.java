@@ -57,5 +57,16 @@ public class Main {
         System.out.println("Метод вычитания " + differenceWeight1);
         var differenceWeight2 = boxer2Weight % boxer1Weight;
         System.out.println("Метод остатка от деления " + differenceWeight2);
+        // Task 8
+        System.out.println();
+        System.out.println("Задание 8");
+        var totalTime = 640;
+        var workTimwe = 8;
+        var totalWorkers = totalTime / workTimwe;
+        System.out.println("Всего сотрудников в компании - " + totalWorkers);
+
+        var newTotalWorkers = totalWorkers + 94;
+        var newTotalTime = newTotalWorkers * 8;
+        System.out.println("Если в компании работает " + newTotalWorkers + " человека, то всего " + newTotalTime + " часов работы может быть поделено между сотрудниками");
     }
 }
